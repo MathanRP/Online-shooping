@@ -1,0 +1,90 @@
+.col-8,.col-4{
+  background-color: rgb(79, 148, 252);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.col-12
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+ .col-12 img{
+  width: 150px;
+  height:150px;
+  padding: 10px;
+}
+.col-12 p{
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+
+}
+.col-12 .card:hover{
+  background-color:rgb(182, 186, 190);
+ 
+
+}
+.rate img{
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.container2{
+  display: flex;
+  /* padding-top: 50px; */
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.button1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.button1 button{
+  width: 25%;
+  font-size: larger;
+  color: black;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 25%;
+  /* background-color: rgb(26, 201, 224); */
+
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid rgb(63, 204, 240);
+  outline: unset !important /* I added this one for Edge (chromium) support */
+}
